@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #000;
+}
+
+/* Product Section */
+.product-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Product Images */
+.product-card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Buttons */
+.btn-warning {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
